@@ -1,11 +1,12 @@
 import React from "react";
-import "./App.css";
+import "antd/dist/antd.css";
+import Home from "./components/Home/Home";
 
 class App extends React.Component {
   render() {
     return (
       <div>
-        <h1>Hello World!</h1>
+        <Home />
       </div>
     );
   }
